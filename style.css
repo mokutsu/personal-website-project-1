@@ -1,0 +1,85 @@
+body {
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1, h2 {
+  display: block;
+  text-align: center;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+p {
+  padding: 5px;
+}
+
+.home-page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+}
+
+.img2 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.img3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+.img6 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.img4 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.img5 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.img1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 8;
+}
+
+.prints {
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+.content {
+  display: block;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.contact {
+  display: block;
+  text-align: center;
+  background-color: lightblue;
+}
